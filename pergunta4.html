@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="question-box">
+        <div class="question">Qual foi o dia mais feliz da minha vida?</div>
+        <ul class="options">
+            <li><label><input type="radio" name="answer" onclick="correctAnswer('parabens.html')"> O dia que começamos a namorar</label></li>
+            <li><label><input type="radio" name="answer" onclick="wrongAnswer()"> Neymar voltando para a seleção</label></li>
+            <li><label><input type="radio" name="answer" onclick="wrongAnswer()"> São Paulo ganhando a CDB</label></li>
+            <li><label><input type="radio" name="answer" onclick="wrongAnswer()"> Lucas Moura de volta no SPFC</label></li>
+        </ul>
+    </div>
+
+    <div class="wrong-answer" id="wrongAnswer">X</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

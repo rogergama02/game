@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Pergunta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="question-box">
+        <div class="question"> Se eu te pedir um beijo, o que você vai fazer?</div>
+        <ul class="options">
+            <li><label><input type="radio" name="answer" onclick="wrongAnswer()"> Negar</label></li>
+            <li><label><input type="radio" name="answer" onclick="wrongAnswer()"> Dizer que tá com pressa</label></li>
+            <li><label><input type="radio" name="answer" onclick="correctAnswer('pergunta3.html')"> Sim amor (um beijo) </label></li>
+            <li><label><input type="radio" name="answer" onclick="wrongAnswer()"> Dizer que sou pegajoso</label></li>
+        </ul>
+    </div>
+
+    <div class="wrong-answer" id="wrongAnswer">X</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
